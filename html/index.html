@@ -6,36 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>People Skills</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <script src="/javascript/script.js"></script>
 </head>
 
 <body>
 
-    <h1>People Skills</h1>
-    <small>A collection of my various coding and machine learning projects</small>
+    <div class = "header">
+        <h1>People Skills</h1>
+        <small>A collection of things that I, and hopefully you, find interesting</small>
+    </div>
+    
 
     <br><hr><br>
 
     <div class="row">
         <div class="column">
             <div class="container">
-                <a href="neuralStyleTransfer.html">
-                <img src="https://d6vdma9166ldh.cloudfront.net/media/images/1525950435714-neural%203.jpeg" alt="style transfer example" width="400" height="400" class="image_link" id="nst_link"
+                <a href="aboutme.html">
+                <img src="/jpgs/IMG_2276.jpg" alt="picture of me" width="400" height="400" class="image_link" id="about_link"
                 >
                 </a>
-                <div class="centered">
-                    Neural Style Transfer
+                <div class="centered" id = "about_caption">
+                    About Me
                 </div>
             </div>
         </div>
-
+        
         <div class="column">
             <div class="container">
                 <a href="audioSeperator.html">
-                <img src="/jpgs/pngtree-sound-waves-vector-illustration-png-image_1686908.jpeg" alt="sound waves" width="400" height="400" class="image_link" id="as_link"
+                <img src="/jpgs/pngtree-sound-waves-vector-illustration-png-image_1686908.jpeg" alt="sound waves" width="400" height="400" class="image_link" id="seperate_link"
                 >
                 </a>
-                <div class="centered">
+                <div class="centered" id = "seperate_caption">
                     Audio/Music Seperator
                 </div>
             </div>
@@ -44,10 +48,10 @@
         <div class="column">
             <div class="container">
                 <a href="translator.html">
-                <img src="/jpgs/foreignlanguage.jpeg" alt="sound waves" width="400" height="400" class="image_link" id="trans_link"
+                <img src="/jpgs/foreignlanguage.jpeg" alt="sound waves" width="400" height="400" class="image_link" id="translate_link"
                 >
                 </a>
-                <div class="centered">
+                <div class="centered" id = "translate_caption">
                     French Translator
                 </div>
             </div>
@@ -57,16 +61,41 @@
     <div class="row">
         <div class="column">
             <div class="container">
-                <a href="neuralStyleTransfer.html">
-                <img src="https://d6vdma9166ldh.cloudfront.net/media/images/1525950435714-neural%203.jpeg" alt="style transfer example" width="400" height="400" class="image_link" id="nst_link"
+                <a href="covid19.html">
+                <img src="/jpgs/covid19.jpeg" alt="covid virus" width="400" height="400" class="image_link" id="covid_link"
                 >
                 </a>
-                <div class="centered">
+                <div class="centered" id = "covid_caption">
+                    Basic COVID-19 Modelling
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="container">
+                <a href="neuralStyleTransfer.html">
+                <img src="https://d6vdma9166ldh.cloudfront.net/media/images/1525950435714-neural%203.jpeg" alt="style transfer example" width="400" height="400" class="image_link" id="style_link"
+                >
+                </a>
+                <div class="centered"  id = "style_caption">
                     Neural Style Transfer
                 </div>
             </div>
         </div>
-    
+
+        <div class="column">
+            <div class="container">
+                <a href="crypto.html">
+                <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60fdb9ac273cc9aeded2cd70%2FBitcoin-Cryptocurrency-trends-Graphs-and-charts%2F960x0.jpg%3Ffit%3Dscale" alt="crypto" width="400" height="400" class="image_link" id="crypto_link"
+                >
+                </a>
+                <div class="centered" id = "crypto_caption">
+                    Cryptocurrency API Experimenting
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br><hr><br><br>
 <button type="button" onclick="mytest()">Click Here</button>    
 
     
