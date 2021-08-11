@@ -1,0 +1,40 @@
+*{
+    padding: 2px
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 32%;
+    padding: 15px 3px;
+}
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image_link {
+    opacity: 0.15;
+}
+
+.image_link:hover {
+    opacity: 1;
+    transition: opacity .25s ease-in;
+}
+
+.container {
+    position: relative;
+    text-align: center; 
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+
